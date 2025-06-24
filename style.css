@@ -782,3 +782,38 @@ footer .social-media a:hover {
     font-size: 1.5rem;
   }
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-text-box {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .intro {
+    font-size: 1rem;
+  }
+}
