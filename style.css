@@ -705,3 +705,77 @@ footer .social-media a:hover {
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-title {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    display: flex !important;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 0;
+  }
+
+  .carousel-text-box h2.hero-title {
+    font-size: 2rem;
+  }
+
+  .carousel-text-box .intro {
+    font-size: 1rem;
+  }
+
+  .struktur-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .struktur-divider-vertikal {
+    display: none;
+  }
+
+  .gallery-grid {
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .news-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta .contact-container {
+    text-align: center;
+  }
+
+  footer .social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .gallery-btn.left,
+  .gallery-btn.right {
+    font-size: 1.5rem;
+  }
+}
