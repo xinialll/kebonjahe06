@@ -1,0 +1,13 @@
+# Jangan track file bawaan macOS
+.DS_Store
+
+# Folder node modules (kalau someday pakai npm)
+node_modules/
+
+# Build hasil deploy (kalau generate otomatis)
+dist/
+build/
+
+# File log dan cache
+*.log
+.cache/
